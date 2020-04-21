@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List Visited LeetCode Problems</title>
+        <style>
+            body {min-width: 250px;}
+        </style>
+        <script src="jquery-3.5.0.min.js"></script>
+        <script src="popup.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h2>List Visited LeetCode Problems</h2>
+        <form id="weekFrom">
+            <input type="radio" id="1week" name="hist" value="1 Week">
+            <label for="1week">1 Week</label><br>
+            <input type="radio" id="2week" name="hist" value="2 Weeks">
+            <label for="2week">2 Weeks</label><br>
+            <input type="button" onclick="onSubmit()" value="Submit">
+        </form>
+        <div id="list_problems"></div>
+    </body>
+</html>
